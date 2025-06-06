@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "npm install && npm run build",
+  "buildCommand": "npm install --legacy-peer-deps && npx nx build gog",
   "outputDirectory": "dist/apps/gog",
   "framework": "angular",
   "routes": [
